@@ -96,5 +96,5 @@ def download_dir_as_zip_route():
             directory=f"../folders/zip",
             path=f"{archive_name}.zip",
             as_attachment=True
-        ), 201
+        ), 200
     return  {"msg": "File doenst exist"}, 404
